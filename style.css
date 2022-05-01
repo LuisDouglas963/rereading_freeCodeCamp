@@ -1,0 +1,61 @@
+:root{
+    --cor-nav: #FFF2E7;
+    --cor-nav-hover: #402d2d;
+    --cor-titulo-destaque: #FFF2E7;
+    --cor-titulo: #FFF2E7;
+    --cor-paragrafo: #FFF2E7;
+    --cor-botao: #9E887F;
+    --cor-botao-hover: #9E887F;
+    --cor-botao-conteudo: #652424;
+    --cor-conteudo: #242121;
+    --cor-conteudo-projeto: #4b4141;
+
+    --fonte-titulo-destaque: 'Baloo Da 2', cursive;;
+    --fonte-titulo: 'Baloo Chettan 2', cursive;
+    --fonte-paragrafo: 'Sen', sans-serif;;
+
+}
+
+html {
+  font-size: 91%;
+}
+
+body {
+  background: linear-gradient(68.15deg, #2f2325 16.62%, #0c0806 85.61%);
+}
+
+main {
+  padding: 0 15px;
+}
+
+header {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 0 15px;
+  align-items: center;
+}
+
+.logo {
+  font-family: var(--fonte-titulo-destaque);
+  font-size: 1.4rem;
+  color: var(--cor-titulo-destaque);
+  margin-bottom: 0 !important;
+}
+
+header nav a {
+  color: var(--cor-nav);
+  font-family: var(--fonte-paragrafo);
+  font-size: 1.1rem;
+  padding: 5px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: var(--cor-nav-hover);
+  transition: 0.2s;
+  text-decoration: none !important;
+}
