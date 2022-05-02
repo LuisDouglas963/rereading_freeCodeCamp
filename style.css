@@ -174,13 +174,27 @@ header nav a:hover {
   margin: 20px 0 !important;
   font-size: 1.1rem;
 }
-.conteudo-principal-imagem {
-  min-width: 300px !important;
-  max-width: 40% !important;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 360px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  /* transition-duration: 0.7s; */
+
+.cards {
+  display: grid;
+  grid: auto-flow / 1fr 1fr 1fr;
+
+  object-fit: cover;
+  gap: 1px;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.depoimentos h1 {
+  color: var(--cor-titulo);
+  font-family: var(--fonte-titulo);
+  font-size: 2rem;
+  padding: 0;
+  outline: 0;
+  text-align: center;
 }
