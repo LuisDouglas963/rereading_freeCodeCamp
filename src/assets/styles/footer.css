@@ -1,0 +1,9 @@
+footer {
+  margin-top: 70px;
+}
+footer > p {
+  color: var(--cor-paragrafo);
+  font-family: var(--fonte-paragrafo);
+  text-align: center;
+  margin: 35px;
+}
