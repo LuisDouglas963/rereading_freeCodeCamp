@@ -198,3 +198,38 @@ header nav a:hover {
   outline: 0;
   text-align: center;
 }
+.header-title h1 {
+  color: var(--cor-titulo);
+  font-family: var(--fonte-titulo);
+  font-size: 2rem;
+  padding: 0;
+  outline: 0;
+  text-align: center;
+}
+.empresas {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.empresas-parceiras {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: space-between;
+  border-radius: 5px;
+  margin: 20px 0;
+  display: flex;
+  background-color: rgba(154, 151, 151, 0.297);
+  padding: 10px;
+  width: 20rem;
+}
+.empresas-parceiras img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
