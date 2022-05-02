@@ -233,3 +233,13 @@ header nav a:hover {
   justify-content: center;
   margin: 15px;
 }
+
+footer{
+  margin-top: 70px;
+}
+footer>p{
+  color: var(--cor-paragrafo);
+  font-family: var(--fonte-paragrafo);
+  text-align: center;
+  margin: 35px;
+}
